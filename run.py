@@ -1,6 +1,7 @@
 #coding=utf-8
 import os
 import time
+os.system('unzip chr1.fasta.zip')
 print '开始处理数据...'
 os.system('python tha.py')
 print '数据处理完毕，开始分析CDS序列与标准答案区别'
